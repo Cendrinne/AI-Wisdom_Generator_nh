@@ -1,15 +1,15 @@
-body, html {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    font-family: Helvetica, Arial, sans-serif;
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
-
 .full-screen-image {
-    width: 100%;
-    height: 33%;
-    object-fit: cover; /* Ensures the image covers the whole area */
+  width: 100%;
+  height: 33%;
+  object-fit: cover; /* Ensures the image covers the whole area */
 }
 
 a {
@@ -114,3 +114,4 @@ footer {
   to {
     visibility: hidden;
   }
+}
