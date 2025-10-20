@@ -18,6 +18,49 @@
       width="100%"
       height="100%"
     />
+
+    <div class="container">
+      <header>
+        <h1>AI Wisdom Generator</h1>
+      </header>
+
+      <main>
+        <div class="form-container">
+          <form id="wisdom-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of Wisdom you seek..."
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Love, Hurt, Wealth, or Trials...</div>
+        </div>
+
+        <div class="wisdom hidden" id="wisdom"></div>
+      </main>
+
+      <footer>
+        This AI project was coded by
+        <a href="https://github.com/Cendrinne/" target="_blank">Nancy Hurst </a>
+        and is
+        <a
+          href="https://github.com/Cendrinne/AI-Wisdom_Generator_nh"
+          target="_blank"
+        >
+          open-sourced on Github</a
+        >
+        and is
+        <a href=" https://ai-wisdom-generator-nh.netlify.app/" target="_blank">
+          hosted on Netlify.</a
+        >
+      </footer>
+    </div>
+
     <script src="src/index.js"></script>
   </body>
 </html>
